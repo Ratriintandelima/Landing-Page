@@ -1,0 +1,141 @@
+body {
+    margin: auto;
+    text-transform: none;
+    font-family: 'Montserrat', sans-serif;
+    height: 100rem;
+    
+    
+}
+/*logo*/
+#home img{
+  width: 90px;
+  height:45px;
+}
+#home .navbar{
+  padding: 10px;
+}
+/*link*/
+#navbarNav .nav-link{
+  color: #2A2B2F;
+}
+/*logo*/
+#home  img{
+  width: 90px;
+  height:45px;
+  
+}
+.nyangkut{
+  text-align: center;
+  
+}
+.btn btn-warning{
+  border-radius: 15px;
+  
+}
+/*About*/
+#about{
+  margin-top: 2rem;
+  text-align: center;
+}
+/*features*/
+#features{
+  margin-top: 2rem;
+  text-align: center;
+}
+.burn img{
+  margin-top: 3rem;
+}
+.burn h6{
+  margin-top: 1.2rem;
+}
+
+.profit img{
+  margin-top: 3rem;
+  width: 240px;
+  height: 200px;
+}
+.profit h6{
+  margin-top: 1.2rem;
+}
+/*contact*/
+#contact{
+  margin-top: 2rem;
+  text-align: center;
+}
+#contact .container{
+  margin-top: 2rem;
+}
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #ffd700;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/*footer*/
+#foot{
+  margin-top: 3rem;
+  }
+#foot h3{
+  margin-top: -2rem;
+  width: auto;
+  text-align: center;
+  background-color: #ffd700;
+  padding: 2rem;
+}
